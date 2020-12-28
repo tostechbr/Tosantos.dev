@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F6F5FF;
+}
+.navbar{ 
+    border: 1px solid red;
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #FBFAFF;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width:  50px;
+    height: 50px;
+}
+.menu {
+    list-style: none;
+    display: flex;
+}
+.menu li {
+    
+}
