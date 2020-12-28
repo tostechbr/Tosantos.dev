@@ -77,35 +77,40 @@ a{
 }
 .container2 {
     max-width: 1200px;
-    border: 1px solid black;
+    
     margin: 255px auto;
     padding: 20px 40px;
     display: flex;
     flex-direction: column;
 }
 .work {
-    border: 1px solid red;
     text-align: center;  
     margin-bottom: 87px;
+    font-size: 48px;
 }
 .iconstext {
-    border: 1px solid red;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    list-style: none;
+    display: flex;   
 }
-.texticons-child {
-   border: 1px solid black;
+
+.icon1 {
+    text-align: center;
+    margin-bottom: 36px;
 }
 .icon1 img {
     width: 100px;
-    height: 100px;
+    height: 100px;    
 }
-.text1 {
-    border: 1px solid blue;
+.text {
+   /* border: 1px solid blue;*/
+    text-align: center;
+    align-items: center;
+}
+.text h3 {
+    font-size: 24px;
+    margin-bottom: 38px;
+}
+.text p1 {
+    font-size: 18px;
 }
 .icon2 img {
     width: 100px;
