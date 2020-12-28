@@ -8,7 +8,6 @@ body{
     background-color: #F6F5FF;
 }
 .navbar{ 
-    border: 1px solid red;
     width: 100%;
     padding: 10px 10px;
     background-color: #FBFAFF;
@@ -16,13 +15,33 @@ body{
     justify-content: space-between;
 }
 .logo img{
+    border: 1px solid red;
     width:  50px;
     height: 50px;
+}
+.logoname li {
+    text-decoration: none;
+    border: 1px solid red;
+    display: flex;
+    
+    
+
+    
+    
 }
 .menu {
     list-style: none;
     display: flex;
 }
 .menu li {
-    
+    margin: 0px 10px;
 }
+a{
+    text-decoration: none;
+    display: block;
+    padding: 16px 32px;
+    border-radius: 8px;
+    color: #202020;
+    transition: .5s ease;
+}
+
