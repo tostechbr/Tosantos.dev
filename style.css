@@ -3,7 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+h1, h2, h3, h4, h5 {
+    font-family: 'Mukta', sans-serif;
+}
+p, p1, p2, p3, p4 {
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    font-family: 'Raleway', sans-serif;
+}
 body{
     background-color: #F6F5FF;
 }
@@ -47,7 +55,7 @@ a{
 .container {
     /*border: 1px solid black;*/
     max-width: 1200px;
-    margin: 0px auto;
+    margin: 5px auto;
     padding: 20px 40px;
     display: flex;
     flex-direction: row;   
@@ -77,9 +85,9 @@ a{
 }
 .container2 {
     max-width: 1200px;
-    
+    flex-wrap: wrap;
     margin: 255px auto;
-    padding: 20px 40px;
+    padding: 20px 0;
     display: flex;
     flex-direction: column;
 }
@@ -112,26 +120,43 @@ a{
 .text p1 {
     font-size: 18px;
 }
-.icon2 img {
-    width: 100px;
-    height: 100px;
+.container3 {
+    max-width: 1200px;
+    margin: 255px auto;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
 }
-.text2 {
-    border: 1px solid blue;
+.texts1 {
+    margin-left: 5px;
 }
-.icon3 img {
-    width: 100px;
-    height: 100px;
+.texts1 h4 {
+    font-size: 48px;
 }
-.text3 {
-    border: 1px solid blue;
+.texts1 p2{
+    font-size: 24px;
 }
-.icon4 img {
-    width: 100px;
-    height: 100px;
+.text2-child {
+    display: flex;
 }
-.text4 {
-    border: 1px solid blue;
+.icontext {
+    margin-top: 43px;
 }
+.topicostext {
+    margin: 39px 0 0 30px;
+}
+.topicostext h5 {
+    font-size: 24px;
+}
+.topicostext p3 {
+    font-size: 20px;
+}
+.mockup img {
+    margin: 30px 0 0 100px;
+}
+
+
 
 
