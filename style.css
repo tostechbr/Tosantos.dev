@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, h7 {
     font-family: 'Mukta', sans-serif;
 }
 p, p1, p2, p3, p4 {
@@ -159,7 +159,6 @@ a{
     margin: 30px 0 0 100px;
 }
 .container4 {
-    border: 1px solid red;
     max-width: 1200px;
     margin: 5px auto;
     padding: 20px 40px;
@@ -171,13 +170,11 @@ a{
     text-align: center;
 }
 .product h6 {
-    font-size: 36px;
+    font-size: 64px;
     margin-bottom: 38px;
 }
 .btn-product {
-    border: 1px solid black;
-    max-width: 1200px;
-
+    display: block;
 }
 .button {
     margin: 0 380px;
@@ -229,22 +226,69 @@ border-radius: 16px;
     color: #F6F5FF;
 }*/
 .exemplos {
-    border: 1px solid red;
     margin-top: 120px;
     display: flex;
     flex-direction: row;
+    text-align: center;
 }
 .img-text {
-    border: 1px solid green;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
-.img-text img {
-    border: 1px solid red;
+.img-retangulo{
     width: 232px;
     height: 232px;
+    background: #FAF8F5;
+    box-shadow: 0px 168.987px 135.189px rgba(0, 0, 0, 0.07), 0px 50.9446px 40.7557px rgba(0, 0, 0, 0.0456112), 0px 21.1598px 16.9278px rgba(0, 0, 0, 0.035), 0px 7.65308px 6.12246px rgba(0, 0, 0, 0.0243888);
+    border-radius: 54.5958px;
+    margin-bottom: 38px;
 }
-.img-text img
-
+.text-exemplo {
+    margin-bottom: 100px;
+}
+.text-exemplo h7 {
+    font-size: 24px;
+}
+.text-exemplo p4 {
+    font-size: 16px;
+}
+.container5 { 
+    max-width: 1200px;
+    margin: 5px auto;
+    padding: 20px 40px;
+    display: block;
+    flex-direction: row;  
+    flex-wrap: wrap;
+}
+.sobremim h6 {
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.eu-text {
+    display: flex;
+}
+.text-topicosqualidade { 
+    margin-left: 50px;
+}
+.title h2 {
+    margin-bottom: 8px;
+    font-size: 48px;
+}
+.textsobremim p {
+    font-size: 20px;
+    margin-bottom: 48px;
+}
+.topicosqualidade {
+    display: flex;
+    flex-direction: row;
+    margin: 43px 0;
+    align-items: center;
+}
+.topicosqualidade p {
+    margin-left: 36px;
+    align-items: baseline;
+}
 
 
