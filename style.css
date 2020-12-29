@@ -12,6 +12,9 @@ p, p1, p2, p3, p4 {
 a{
     font-family: 'Raleway', sans-serif;
 }
+li{
+    font-family: 'Raleway', sans-serif;
+}
 body{
     background-color: #F6F5FF;
 }
@@ -21,6 +24,7 @@ body{
     background-color: #F6F5FF;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .logoname {
     display: flex;
@@ -53,32 +57,31 @@ a{
     transition: .5s ease;
 }
 .container {
-    /*border: 1px solid black;*/
     max-width: 1200px;
     margin: 5px auto;
     padding: 20px 40px;
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;  
+    flex-wrap: wrap;
 }
 .text1 h1 {
-    /*border: 1px solid red;*/
     font-size: 64px;
-    padding: 200px 0 0 0;
+    margin-top: 200px;
 }
 .text1 p {
-    /*border: 1px solid green;*/
     font-size: 24px;
 }
-.imgeu { 
-    /*border: 1px solid orange;*/
-    padding-left: 130px;
-}
-.fotoeu img{
-   /* border: 1px solid blue;*/
+/*.imgeu { 
+    border: 1px solid orange;
     position: absolute;
+    margin-left: 182px;
+}*/
+.fotoeu img{
     width: 500px;
     height: 500px;   
-}
+    position: absolute;
+    margin: 96px 0 0 120px; 
+} 
 .retangulo img{
     /*border: 1px solid yellow;*/
     position: absolute;
@@ -99,7 +102,6 @@ a{
 .iconstext {
     display: flex;   
 }
-
 .icon1 {
     text-align: center;
     margin-bottom: 36px;
@@ -114,11 +116,11 @@ a{
     align-items: center;
 }
 .text h3 {
-    font-size: 24px;
+    font-size: 36px;
     margin-bottom: 38px;
 }
 .text p1 {
-    font-size: 18px;
+    font-size: 24px;
 }
 .container3 {
     max-width: 1200px;
