@@ -290,5 +290,35 @@ border-radius: 16px;
     margin-left: 36px;
     align-items: baseline;
 }
-
+.container6 {
+    max-width: 1200px;
+    margin: 5px auto;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;  
+    flex-wrap: wrap;
+}
+.contato h6 {
+    font-size: 48px;
+    text-align: center;
+    margin: 100px 0;
+}
+.form-img {
+    border: 1px solid #ccc;
+    display: flex;
+}
+.formulario {
+    border: 1px solid #ccc;
+}
+.formulario label {
+    border: 1px solid red;
+    width: 100%;
+    display: block;
+    margin-right: 123px;
+    
+}
+.formulario input {
+    border: 1px solid red;
+    display: block;
+}
 
