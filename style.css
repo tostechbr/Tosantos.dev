@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-h1, h2, h3, h4, h5, h6, h7 {
+h1, h2, h3, h4, h5, h6, h7, label {
     font-family: 'Mukta', sans-serif;
 }
 p, p1, p2, p3, p4 {
@@ -301,24 +301,46 @@ border-radius: 16px;
 .contato h6 {
     font-size: 48px;
     text-align: center;
-    margin: 100px 0;
+    margin: 100px 0 90px 0;
 }
 .form-img {
-    border: 1px solid #ccc;
     display: flex;
-}
-.formulario {
-    border: 1px solid #ccc;
+    justify-content: space-between;
 }
 .formulario label {
-    border: 1px solid red;
-    width: 100%;
     display: block;
-    margin-right: 123px;
-    
+    width: 500px;
+    margin: 10px 0;
 }
 .formulario input {
-    border: 1px solid red;
     display: block;
+    border: 0px;
+    width: 400px;
+    height: 56px;
+    margin: 10px 0;
+    background:white;
+    border-radius: 12px; 
 }
+.formulario textarea {
+    display: block;
+    width: 400px;
+    height: 200px;
+    margin: 10px 0;
+    background: white;
+    border-radius: 12px; 
+    border: 0px;
+}
+.button-contato {
+    width: 260px;
+    height: 54px;
+    background: linear-gradient(220.94deg, #6F57F9 14.43%, #342680 85.28%);
+    box-shadow: 0px 18px 52px -16px #5440C1;
+    border-radius: 16px;
+    margin-left: 70px;
+}
+.button-contato a { 
+    color: white;
+    text-align: center;
+}
+
 
