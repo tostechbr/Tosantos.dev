@@ -336,7 +336,7 @@ border-radius: 16px;
     background: linear-gradient(220.94deg, #6F57F9 14.43%, #342680 85.28%);
     box-shadow: 0px 18px 52px -16px #5440C1;
     border-radius: 16px;
-    margin-left: 70px;
+    margin: 35px 0 0 70px;
 }
 .button-contato a { 
     color: white;
