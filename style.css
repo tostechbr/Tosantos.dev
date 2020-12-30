@@ -1,13 +1,20 @@
+@charset "utf-8";
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-h1, h2, h3, h4, h5, h6, h7, label {
+h1, label {
     font-family: 'Mukta', sans-serif;
+    font-size: 64px;
 }
-p, p1, p2, p3, p4 {
+h2{
+    font-family: 'Mukta', sans-serif;
+    font-size: 36px;
+}
+p {
     font-family: 'Raleway', sans-serif;
+    font-size: 24px;
 }
 a{
     font-family: 'Raleway', sans-serif;
@@ -65,12 +72,9 @@ a{
     flex-wrap: wrap;
 }
 .text1 h1 {
-    font-size: 64px;
     margin-top: 200px;
 }
-.text1 p {
-    font-size: 24px;
-}
+
 /*.imgeu { 
     border: 1px solid orange;
     position: absolute;
@@ -91,36 +95,24 @@ a{
     flex-wrap: wrap;
     margin: 255px auto;
     padding: 20px 0;
-    display: flex;
-    flex-direction: column;
 }
 .work {
-    text-align: center;  
+    text-align: center;
     margin-bottom: 87px;
     font-size: 48px;
 }
 .iconstext {
-    display: flex;   
-}
-.icon1 {
+    display: flex;
+    flex-direction: row;
     text-align: center;
-    margin-bottom: 36px;
-}
-.icon1 img {
-    width: 100px;
-    height: 100px;    
+    justify-content: space-between;
 }
 .text {
-   /* border: 1px solid blue;*/
-    text-align: center;
-    align-items: center;
+    width: 245px;
+    height: 275px; 
 }
-.text h3 {
-    font-size: 36px;
-    margin-bottom: 38px;
-}
-.text p1 {
-    font-size: 24px;
+.text h2 {
+    margin: 32px 0;
 }
 .container3 {
     max-width: 1200px;
@@ -128,35 +120,21 @@ a{
     padding: 20px 0;
     display: flex;
     flex-direction: row;
-    align-content: center;
-    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
 }
 .texts1 {
-    margin-left: 5px;
-}
-.texts1 h4 {
-    font-size: 48px;
-}
-.texts1 p2{
-    font-size: 24px;
+    margin-bottom: 43px;
 }
 .text2-child {
     display: flex;
+    flex-direction: row;
 }
 .icontext {
-    margin-top: 43px;
+    margin-top: 10px;
 }
 .topicostext {
-    margin: 39px 0 0 30px;
-}
-.topicostext h5 {
-    font-size: 24px;
-}
-.topicostext p3 {
-    font-size: 20px;
-}
-.mockup img {
-    margin: 30px 0 0 100px;
+    margin-left: 30px;  
 }
 .container4 {
     max-width: 1200px;
