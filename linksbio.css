@@ -12,8 +12,11 @@ p {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
 }
+nav { 
+    border: 1px solid red;
+}
 body {
-    background-color: #342680;
+    background-color: #A0A3FF;
 }
 .container {
     max-width: 1200px;
@@ -23,6 +26,13 @@ body {
     flex-direction: row;  
     flex-wrap: wrap;
     justify-content: center;
+    background 
+}
+.wave1 {
+    position: absolute;
+}
+.wave2 {
+    position: absolute;
 }
 .card {
     width: 905px;
