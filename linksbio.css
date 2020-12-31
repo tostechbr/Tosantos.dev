@@ -4,3 +4,44 @@
     margin: 0;
     box-sizing: border-box;
 }
+h1 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 24px;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+body {
+    background-color: #342680;
+}
+.container {
+    max-width: 1200px;
+    margin: 5px auto;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    width: 905px;
+    height: 316px;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(76.0494px);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgperfil img {
+    margin-left: 49px;
+    margin-right: 54px;
+}
+.biography {
+    margin-right: 35px;
+}
+.biography h1, p {
+    color: #F6F5FF;
+}
