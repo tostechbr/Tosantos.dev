@@ -16,9 +16,8 @@ p {
 body {
     background-color: #F8F7FA;
     background-image: url('imagens/wave3.svg');
-    background-repeat: no-repeat;
-     
-      
+    background-repeat: no-repeat; 
+    
 }
 .container {
     max-width: 1200px;
@@ -87,7 +86,6 @@ footer{
     height: 260px;
     background-image: url('imagens/wave4.svg');
     background-repeat: no-repeat;
-    background-attachment: fixed; 
     background-position: bottom;
 }
 .copyright {
