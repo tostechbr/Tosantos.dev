@@ -7,16 +7,18 @@
 h1 {
     font-family: 'Mukta', sans-serif;
     font-size: 24px;
+    color: #313133;
 }
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
 }
-nav { 
-    border: 1px solid red;
-}
 body {
-    background-color: #A0A3FF;
+    background-color: #F8F7FA;
+    background-image: url('imagens/wave3.svg');
+    background-repeat: no-repeat;
+     
+      
 }
 .container {
     max-width: 1200px;
@@ -26,19 +28,12 @@ body {
     flex-direction: row;  
     flex-wrap: wrap;
     justify-content: center;
-    background 
-}
-.wave1 {
-    position: absolute;
-}
-.wave2 {
-    position: absolute;
 }
 .card {
     width: 905px;
     height: 316px;
-    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(76.0494px);
+    background: linear-gradient(220.94deg, rgba(160, 163, 255, 0.2) 14.43%, rgba(52, 38, 128, 0.2) 85.28%);
+    backdrop-filter: blur(34px);
     border-radius: 12px;
     display: flex;
     flex-direction: row;
@@ -53,5 +48,57 @@ body {
     margin-right: 35px;
 }
 .biography h1, p {
+    color: 313133;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card2{ 
+    width: 800px;
+    height: 84px;
+    margin-bottom: 24px;   
+    background: linear-gradient(220.94deg, rgba(160, 163, 255, 0.2) 14.43%, rgba(52, 38, 128, 0.2) 85.28%);
+    backdrop-filter: blur(32.4956px);
+    border-radius: 11.469px;
+}
+
+.cardicon{
+    width: 800px;
+    height: 84px;   
+    display: flex;
+    align-items: center;
+}
+.card-icon {
+    width: 67.41px;
+    height: 70px;
+    background: #F6F5FF;
+    border-radius: 12px; 
+    margin-left: 18px;  
+}
+.card-text p{
+    text-align: center;
+    margin-left: 230px;
+}
+footer{
+    width: 100%;
+    height: 260px;
+    background-image: url('imagens/wave4.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: bottom;
+}
+.copyright {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    padding: 30px 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.copyright p {
     color: #F6F5FF;
 }
+
