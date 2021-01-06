@@ -52,7 +52,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 .card2{ 
     width: 800px;
@@ -125,7 +124,7 @@ footer {
       /*Shrinking for mobile*/
       @media (max-width: 768px) {
         .waves {
-          height: 40px;
+          height: 80px;
           min-height: 40px;
         }
       }
