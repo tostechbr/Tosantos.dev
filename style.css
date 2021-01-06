@@ -197,6 +197,7 @@ section {
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
+    
 }
 .texticons-child {
     background-color: white;
@@ -238,106 +239,109 @@ section {
 .topicostext {
     margin-left: 30px;  
 }
-.container4 {
-    max-width: 1200px;
-    margin: 5px auto;
-    padding: 20px 40px;
-    display: flex;
-    flex-direction: column;  
-    flex-wrap: wrap;
-}
-.product {
-    text-align: center;
-}
-.product h6 {
-    font-size: 64px;
-    margin-bottom: 38px;
-}
-.btn-product {
-    display: block;
-}
-.button {
-    margin: 0 380px;
-    height: 54px;
-    border-radius: 16px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    border: 1px solid#6F57F9;
-}
-.button1 a {
-    flex-flow: row wrap;
-    justify-content: center;
-    border-radius: 16px;       
-}
-:hover .button1 a {
-    background: linear-gradient(220.94deg, #6F57F9 14.43%, #342680 85.28%);
-    box-shadow: 0px 18px 52px -16px #5440C1;
-    border-radius: 16px;  
-}
-:hover .button1 a {
-    color: #F6F5FF;
-}
-
-.button2 a {
-    flex-flow: row wrap;
-    justify-content: center;
-    border-radius: 16px;
-}
-/*:hover .button2 a {
-    background: linear-gradient(220.94deg, #6F57F9 14.43%, #342680 85.28%);
-    box-shadow: 0px 18px 52px -16px #5440C1;
-    border-radius: 16px;    
-}
-:hover .button2 a {
-    color: #F6F5FF;
-}*/
-.button3 a {
-    flex-flow: row wrap;
-    justify-content: center;
-    border-radius: 16px;
-}
-/*:hover .button3 a {
-    background: linear-gradient(220.94deg, #6F57F9 14.43%, #342680 85.28%);
-box-shadow: 0px 18px 52px -16px #5440C1;
-border-radius: 16px;    
-}
-:hover .button3 a {
-    color: #F6F5FF;
-}*/
-.exemplos {
-    margin-top: 120px;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
-.img-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.img-retangulo{
-    width: 232px;
-    height: 232px;
-    background: #FAF8F5;
-    box-shadow: 0px 168.987px 135.189px rgba(0, 0, 0, 0.07), 0px 50.9446px 40.7557px rgba(0, 0, 0, 0.0456112), 0px 21.1598px 16.9278px rgba(0, 0, 0, 0.035), 0px 7.65308px 6.12246px rgba(0, 0, 0, 0.0243888);
-    border-radius: 54.5958px;
-    margin-bottom: 38px;
-}
-.text-exemplo {
-    margin-bottom: 100px;
-}
-.text-exemplo p {
-    font-size: 16px;
-}
-.container5 { 
-    max-width: 1200px;
-    margin: 5px auto;
-    padding: 20px 40px;
-    display: block;
-    flex-direction: row;  
-    flex-wrap: wrap;
-}
+.services{
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+  .s-heading{
+      text-align:center;
+  }
+  .s-box-container{
+      width:100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .s-box{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      width:300px;
+      padding: 20px 25px;
+      height: 400px;
+      box-sizing: border-box;
+      margin: 30px;
+      position: relative;
+  }
+  .s-box img{
+      height: 75px;
+  }
+  .s-box h1{
+      color:#313133;
+      letter-spacing: 1px;
+      font-size: 1.5rem;
+      margin-bottom: 8px;
+      
+  }
+  .s-box p{
+      text-align: center;
+  }
+  .s-btn{
+      width: 140px;
+      height: 40px;
+      border-radius: 12px;
+      border:1px solid #342680;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top:30px; 
+  }
+  .bar{
+      width: 100px;
+      height: 6px;
+      position: absolute;
+      left: 50%;
+      top: 0%;
+      transform: translateX(-50%);
+      background-color:#342680; 
+      border-radius: 0px 0px 10px 10px;
+      display: none;
+      animation: bar 0.5s;
+  }
+  .s-box:hover{
+      box-shadow: 0px 51px 80px rgba(111, 87, 249, 0.08), 0px 15.375px 24.1177px rgba(111, 87, 249, 0.0521271), 0px 6.38599px 10.0172px rgba(111, 87, 249, 0.04), 0px 2.30969px 3.62304px rgba(111, 87, 249, 0.0278729);
+      transition: all ease 0.4s;
+  }
+  .s-btn:hover{
+      background-color: #342680;
+      border: 1px solid #342680;
+      color:#F8F7FA;
+      transition: all ease 0.3s;
+  }
+  .s-box:hover .bar{
+    
+      display: block;
+  }
+  @keyframes bar{
+      0%{
+          width:0px;
+      }
+      100%{
+          width:100px;
+      }
+  }
+  @media(max-width:1050px){
+      .s-box-container{
+          flex-wrap: wrap;
+          
+      }	
+      .services{
+          height: auto;
+      }
+      .s-heading{
+          margin: 15px;
+      }
+      .s-box{
+          flex-grow: 1;
+      }
+      
+  }
 .sobremim h1 {
     text-align: center;
     margin: 100px 0;
