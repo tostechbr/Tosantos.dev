@@ -73,21 +73,16 @@ a{
     transition: .5s ease;
 }
 main {
-    border: 3px solid purple;
+    
 }
 section {
     
 }
-.container h1 {
-    text-align: center;
-}
+/*waves*/
 .waves {
-    margin-top: 100px;
     position: relative;
-    width: 100%;
-    height: 20vh;
-    margin-bottom: -7px; /*Fix for safari gap*/
-    min-height: 350px;
+    margin-bottom: -7px; 
+    min-height: 300px;
     max-height: 150px;
   }
   .waves--background {
@@ -120,32 +115,46 @@ section {
       transform: translate3d(85px, 0, 0);
     }
   }
-  /*Shrinking for mobile*/
   @media (max-width: 768px) {
     .waves {
-      height: 80px;
+      height: 90px;
       min-height: 40px;
     }
   }
-/*.container {
-    border: 10px solid red;
-    max-width: 1200px;
-    margin: 100px auto;
-    padding: 20px 0;
-    display: flex;
-    flex-direction: column;  
-    text-align: center;
-    
+  /*waves */
+.container {
+    margin-top: 5px;
 }
+.container-child {
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.creative {
+    display: flex;
+    flex-direction: column;    
+}
+.creative h1 {
+    font-size: 12vh;
+    margin-bottom: 12px;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 1px #342680;
+    font-family: 'Poppins', sans-serif;
+}
+.creative-child {
+    text-align: center;
+}
+/*
 .wave h5{
     border: 10px solid purple;
-    text-align: center;	
-    /*position: absolute;
 }
 
 .wave h5:nth-child(1) {
 	color: transparent;
-	-webkit-text-stroke: 2px #342680;
+    -webkit-text-stroke: 2px #342680;
+    position: absolute;
 }
 .wave h5:nth-child(2) {
 	color: #342680;
@@ -161,7 +170,6 @@ section {
     }
 }*/
 
-
 .container2 {
     background: #342680;
     /*max-width: 1200px;
@@ -170,18 +178,16 @@ section {
     padding: 20px 0;*/
 }
 .work {
-    border: 1px solid white;
     max-width: 1200px;
     flex-wrap: wrap;
     margin: 0 auto;
     padding: 20px 0;
     text-align: center;
 }
-.container2 h1 {
-    margin-top: 100px;
+.work h1 {
+    color:#F3F2F7;
 }
 .iconstext {
-    border: 1px solid white;
     max-width: 1200px;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -191,13 +197,22 @@ section {
     text-align: center;
     justify-content: space-between;
 }
+.texticons-child {
+    background-color: white;
+    border-radius: 16px;
+}
+.icon1 {
+    margin-top: 30px;
+}
 .text {
-    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 18px;
     width: 245px;
     height: 275px; 
 }
 .text h2 {
-    border: 1px solid white;
     margin: 32px 0;
 }
 .container3 {
