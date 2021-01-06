@@ -11,6 +11,7 @@ h1 {
 h2{
     font-family: 'Mukta', sans-serif;
     font-size: 36px;
+    color: #313133;
 }
 h3 {
     font-family: 'Raleway', sans-serif;
@@ -23,7 +24,8 @@ h5 {
 }
 p, label {
     font-family: 'Raleway', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
+    color: #89898B;
 }
 a{
     font-family: 'Raleway', sans-serif;
@@ -172,10 +174,8 @@ section {
 
 .container2 {
     background: #342680;
-    /*max-width: 1200px;
     flex-wrap: wrap;
-    margin: 255px auto;
-    padding: 20px 0;*/
+    padding: 100px 0;
 }
 .work {
     max-width: 1200px;
@@ -186,6 +186,7 @@ section {
 }
 .work h1 {
     color:#F3F2F7;
+    margin-bottom: 48px;
 }
 .iconstext {
     max-width: 1200px;
