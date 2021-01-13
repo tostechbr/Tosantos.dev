@@ -497,14 +497,29 @@ a:hover {
     text-align: center;
     margin-bottom: 50px;
 }
-.form1{
-    border: 3px solid red;
+.form1 {
+    border: 10px solid black;
+    align-items: center;
 }
 .formulario {
-   border: 1px solid black;
    display: flex;
    flex-direction: column;
-   align-items: center;
+}
+#layout{ 
+    margin-top: 10px;
+}
+.simounao {
+    display: flex;
+    align-items: center;
+}
+.simounao input {
+    margin: 8px;
+}
+.simounao label {
+    margin-left: 5px;
+}
+#field-link {
+    margin-top: -15px;
 }
 .custom-field {
     font-family: 'Mukta', sans-serif;
@@ -513,6 +528,38 @@ a:hover {
     padding-top: 20px;
     margin-bottom: 5px;
   }
+  .custom-field input {
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: white;
+    padding: 12px;
+    border-radius: 3px;
+    width: 550px;
+    height: 50px;
+    outline: none;
+    font-size: 14px;
+  }
+  .custom-field .placeholder {
+    position: absolute;
+    left: 12px;
+    top: calc(50% + 10px);
+    transform: translateY(-50%);
+    color: #202020;
+    transition: 
+      top 0.3s ease,
+      color 0.3s ease,
+      font-size 0.3s ease;
+  }
+  .custom-field input.dirty + .placeholder,
+  .custom-field input:valid + .placeholder,
+  .custom-field input:focus + .placeholder {
+    top: 10px;
+    font-size: 12px;
+    color: #202020;
+  } 
   .custom-field input {
     border: none;
     -webkit-appearance: none;
