@@ -34,6 +34,8 @@ li{
     font-family: 'Raleway', sans-serif;
 }
 body{
+    width: 100%;
+    height: 100vh;
     background-color: #F8F7FA;
 }
 header {
