@@ -1,4 +1,4 @@
 # Portfolio / Tosantos.dev
- Primeiro portfolio empresarial. Esse website tem o objetivo de mostrar meus trabalhos de freelance.
+ Portfólio criado com o intuito de mostrar meus recentes e futuros projetos ao decorrer da minha carreira.
 
  <img src="imagens/readme.svg" alt="Icone" width="400" height="300" text-align:center/>
