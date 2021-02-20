@@ -15,15 +15,6 @@ https://tiagooliveira.netlify.app/
 
 <!-- ************************************* Título ********************************************* -->
 
-<h1> 🚀 Evoluindo em C++</h1>
-
-<!-- ************************************* Sobre o projeto ********************************************* -->
-
-<h2>🔥 Sobre os Estudos</h2>
-
-<p> Nesse repositório vou dedicar um bom tempo para praticar C++, essa linguagem é bastante utilizada dentro do meio acadêmico da Universidade Federal do Rio Grande do Norte. Com isso, coloco neste repositório aulas e práticas que participo dentro da UFRN.</p>
-
----
 
 <h3>📚 Linguagens</h3>
 
