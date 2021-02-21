@@ -47,6 +47,7 @@ header {
     background-color: #F8F7FA;
 }
 .navbar{ 
+    border: 3px solid red;
     font-size: 24px;
     max-width: 1200px;
     height: 75px;
