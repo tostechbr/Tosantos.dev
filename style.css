@@ -46,8 +46,7 @@ header {
     z-index: 999; /* deixa a barra acima de qualquer item da pagina */
     background-color: #F8F7FA;
 }
-.navbar{ 
-    border: 3px solid red;
+.navbar{
     font-size: 24px;
     max-width: 1200px;
     height: 75px;
