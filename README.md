@@ -1,6 +1,6 @@
 https://tiagooliveira.netlify.app/
 
-# Portfólio  <a href="https://tiagooliveira.netlify.app/">👨‍💻</a>
+<h1><a href="https://tiagooliveira.netlify.app/">Portfólio</a></h1>
 
 <div align="center">
   <img src="imagens/readme.svg" alt="Logo" width="250" height="250"/>
