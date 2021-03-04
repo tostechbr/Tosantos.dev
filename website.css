@@ -50,7 +50,7 @@ header {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    border: 10px solid #F8F7FA;
+    padding: 12px 18px;
 }
 .web1 {
     display: flex;
