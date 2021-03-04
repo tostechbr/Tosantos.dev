@@ -47,8 +47,6 @@ header {
     text-align: center;
 }
 .container {
-    
-
     border: 50px solid #F8F7FA;
     max-width: 1200px;
     margin: 0 auto;
@@ -64,6 +62,10 @@ header {
 
     box-shadow: 0px 51px 80px rgba(111, 87, 249, 0.08), 0px 15.375px 24.1177px rgba(111, 87, 249, 0.0521271), 0px 6.38599px 10.0172px rgba(111, 87, 249, 0.04), 0px 2.30969px 3.62304px rgba(111, 87, 249, 0.0278729);
     border-radius: 16px;
+
+    border: 1px solid red;
+
+    
 }
 .web1 img {
     margin-right: 88px;
@@ -80,8 +82,14 @@ header {
     background: linear-gradient(220.94deg, #6F57F9 14.43%, #342680 85.28%);
     border-radius: 16px;
 
+    margin-right: 18px;
+    
     text-decoration: none;
     padding: 12px 24px;
+}
+.btn-img {
+    display: flex;
+    align-items: center;
 }
 .web2 {
     display: flex;
