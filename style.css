@@ -455,10 +455,8 @@ a:hover {
 @media screen and (max-width:1050px){
     .container4{
         height: 100%;
-
     }
     .htmlcssjs {
-
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
