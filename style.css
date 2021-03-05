@@ -709,6 +709,7 @@ footer {
 .social-footer img {
     margin: 4px;
 }
+
 @media (max-width: 1050px) {
     .footer {
       width: 100%;
