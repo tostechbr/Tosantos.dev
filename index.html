@@ -84,15 +84,6 @@
             </g>
           </svg>
         </div>
-        <!--<div class="wave">
-          <h5>Creative</h5>
-          <h5>Creative</h5>
-          
-          <p>
-            A seguir informações importantes para você
-            solicitar um site para sua marca expandir!
-          </p>
-        </div>-->
       </section>
 
       <section id="work" class="container2">
@@ -227,10 +218,40 @@
         </div>
       </section>
 
-      <section id="contact" class="container5">
+      <section id="contact1" class="container6">
           <h1>Contato</h1>
-          <a class="btn-contact" href="https://api.whatsapp.com/send?phone=5584999113296&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20seu%20trabalho."><h3>Fazer um orçamento</h3></a>
+
+          <form method="post" name="contact" netlify>
+            <div class="form-name">
+              <label for="nome"><strong>Nome</strong></label>
+              <input type="text" name="nome" id="nome" required placeholder>
+            </div>
+
+            <div class="form-email">
+              <label for="email"><strong>Email</strong></label>
+              <input type="email" name="email" id="email" required>
+            </div>
+
+            <!--<div class="form-layout">
+              <label><strong>Já possui Layout?</strong></label>
+              <label class=radio-sim>
+                <input type="radio" name="sim" value="sim" class="sim">Sim
+              </label>
+              <label>
+                <input type="radio" name="nao" value="nao" class="nao">Não
+              </label>
+            </div> -->
+
+            <div class="form-projeto">
+              <label><strong>Conte-me mais sobre o projeto</strong></label>
+              <textarea name="mensagem" id="mensagem" ></textarea>
+            </div>
+
+            <input type="submit" value="Enviar">
+          </form>
+          
       </section>
+
 
       <footer class="footer"> 
         <div class="logoname">
